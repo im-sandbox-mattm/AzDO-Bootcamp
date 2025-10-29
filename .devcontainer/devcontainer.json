@@ -1,0 +1,7 @@
+{
+  "name": "Minimal GitHub Codespace",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "remoteEnv": {
+    "INSTALLATION_TYPE": "labs"
+  }
+}
