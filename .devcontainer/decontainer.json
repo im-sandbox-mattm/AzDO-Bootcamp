@@ -1,7 +1,16 @@
+/*
 {
   "name": "Minimal GitHub Codespace",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "remoteEnv": {
     "INSTALLATION_TYPE": "labs"
   }
+}
+*/
+
+// test smaller image
+{
+  "name": "Alpine Test",
+  "image": "mcr.microsoft.com/devcontainers/base:alpine",
+  "remoteEnv": { "INSTALLATION_TYPE": "labs" }
 }
