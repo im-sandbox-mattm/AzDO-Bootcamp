@@ -3,5 +3,17 @@
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "remoteEnv": {
     "INSTALLATION_TYPE": "labs"
+  },
+  "customizations": {
+      "vscode": {
+          "extensions": [
+              "GitHub.copilot"
+          ]
+      },
+      "codespaces": {
+          "openFiles": [
+              "codespace.md"
+          ]
+      }
   }
 }
